@@ -1,0 +1,143 @@
+/* 관련문의 */
+
+.j-container {
+    padding-top: 90px;
+}
+.j-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 327px;
+    background-image: url(../images/support/title-img.png);
+    background-size: cover;
+}
+
+.j-title p {
+    color: var(--sub-color1);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 0.5em;
+}
+
+.j-support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+/* 간격 조정 */
+@media screen and (max-width: 1195px) {
+    .j-support {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .j-support {
+        gap: 50px;
+    }
+}
+
+.j-support h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 0.5em;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.j-support h1 span {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.j-contact {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    /* padding-bottom: 23px; */
+}
+
+
+.j-questions,
+.j-tour {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 484px;
+    height: 556px;
+    margin-top: 71px;
+    margin-bottom: 70px;
+    outline: 1px solid #000;
+}
+
+.j-text {
+    display: flex;
+}
+
+.j-list {
+    padding-top: 60px;
+    padding-left: 75px;
+}
+
+.j-list p {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.j-list p:last-child {
+    padding-bottom: 0;
+}
+
+.j-questions img {
+    width: 236px;
+    height: 169px;
+    margin: 62px 124px 52px;
+}
+
+.j-tour img {
+    width: 208px;
+    height: 248px;
+    margin: 14px 138px 33px;
+}
+
+.j-hover-img {
+    display: none;
+}
+
+.j-time {
+    margin-bottom: 10px;
+}
+
+.j-questions:hover , .j-tour:hover {
+    outline: 5px solid var(--main-color1);
+    color: var(--main-color1);
+}
+
+.j-questions:hover img {
+    display: none;
+}
+
+.j-questions:hover .j-hover-img {
+    display: block;
+}
+.j-hover:hover {
+    color: var(--main-color1);
+}
+
+.j-tour:hover img {
+    display: none;
+}
+
+.j-tour:hover .j-hover-img {
+    display: block;
+}
+

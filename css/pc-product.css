@@ -1,0 +1,136 @@
+/* product-main */
+#h-main {
+    width: 100%;
+    padding-top: 90px;
+    /* height: calc( - var(--pc-header-height)); */
+  }
+  .product-main {
+    width: 100%;
+    height: 327px;
+    /* background: #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .product-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(75%);
+  }
+  
+  .product-main h1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 0.5em;
+    color: #fff;
+  }
+  
+  .h-category ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .h-category ul li a {
+    color: #000000;
+    /* outline: 1px solid red; */
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .h-category ul li a:hover {
+    color: var(--main-color1);
+    font-weight: 700;
+  }
+  
+  #h-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background: #888; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  #h-container .h-col {
+    /* width: 446px;
+    height: 446px; */
+    width: calc(33% - 8px);
+    outline: 1px solid var(--main-color1);
+    outline-style: inset;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  
+  #h-container .h-col a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #h-container .h-col a > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    transition: all 0.4s ease-in;
+    background: #fff;
+  }
+  
+  #h-container .h-col:hover img {
+    filter: grayscale(100%) brightness(90%);
+    transform: scale(1.1);
+  }
+  
+  #h-container .h-col .h-products-title {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    background: rgba(8, 16, 123, 0.5);
+    transform: translateY(-50%) scale(1.2);
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 56px;
+    padding-bottom: 30px;
+  }
+  
+  #h-container .h-col:hover .h-products-title {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+  
+  .h-products-title h2 {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .h-products-title p {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+  }

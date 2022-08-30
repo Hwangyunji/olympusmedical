@@ -1,0 +1,36 @@
+:root {
+    --main-color1 : #08107B;
+    --main-color2 : #E9B226;
+    --sub-color1 : #ffffff;
+    --sub-color2 : #eeeeee;
+    --text-color-dark : #000000;
+    --text-color-light : #666666;
+    /* header 높이값 */
+    --pc-header-height : 90px;
+    --mobile-header-height : 60px;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  ul  {
+    list-style-type: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }

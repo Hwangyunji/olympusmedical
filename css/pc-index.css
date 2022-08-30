@@ -1,0 +1,250 @@
+/* 메인 배너 */
+
+
+.k-container { 
+    width: 100%;
+    margin: 0 auto;
+}
+
+#k-main-Banner { 
+    padding-top: 90px;
+    width: 100%;
+    background: linear-gradient(90deg, #2E3483 50%, #DFDFDF 50%);
+}
+
+/* 모바일용 이미지 끄기 */
+.m-main-img {
+    display: none;
+  }
+
+  #k-main-Banner .k-container { 
+    max-width: 1440px;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-pagination-bullet  {
+    width: 40px;
+    height: 5px;
+    border-radius: 0;
+  }
+
+  .swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    background-color: #fff;
+  }
+  .swiper-pagination > .swiper-pagination-bullet-active {
+    background: var(--main-color2);
+  }
+
+
+
+
+
+
+
+/* 의료분야별 */
+
+#k-field { 
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 87px;
+}
+
+
+#k-field h1 { 
+    font-size: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    text-decoration: 5px underline; 
+    text-underline-position:under;
+    text-decoration-color: #E9B226;
+}
+
+#k-field .k-list { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 30px;
+}
+
+#k-field .k-col { 
+    width: 20%;
+    height: 20vh;
+    /* background: #ccc; */
+    border: 1px solid #666;
+    position: relative;
+}
+
+#k-field .k-col a{
+    display: block;
+    /* outline: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+ }
+
+#k-field .k-col p { 
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+#k-field .k-col a:hover { 
+    border: 3px solid #08107B;
+   color: #08107B;
+}
+
+
+
+#k-field .k-col img { 
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+
+/* ------------신제품 배너------------ */
+
+.k-m-new { 
+    display: none;
+}
+
+#k-new-banner {
+    width: 100%; 
+    height: 150px;
+    overflow: hidden;  
+}
+
+
+.k-slider2 .k-sliders2 img {
+    display: block;
+    width: 1440px; 
+    margin: 0 auto;
+}
+  
+
+
+.k-slider2 .k-sliders2 .k-bg:nth-child(1) { 
+    width: 100%;
+    background: var(--main-color2);
+}
+
+.k-slider2 .k-sliders2 .k-bg:nth-child(2) { 
+    width: 100%;
+    background: var(--main-color1);
+}
+
+.k-slider2 .k-sliders2 .k-bg:nth-child(3) { 
+    width: 100%;
+    background: var(--main-color1);
+}
+
+
+
+
+
+
+.k-slider2 .k-sliders2 {
+    /* 높이값 이동: 1장 = 300px */
+    transform: translateY(calc(-150px * 0));
+    transition: 0.5s;
+  }
+
+
+
+
+/* -----------제품정보 --------------*/
+
+#k-product { 
+    overflow: hidden;
+    margin-bottom: 140px;
+}
+
+
+#k-product h1 { 
+    text-align: center;
+    text-decoration: 5px underline; 
+    text-underline-position:under;
+    text-decoration-color: #E9B226;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#k-product .k-col2 { 
+    width: calc(100% / 6);
+    height: 70vh;
+    /* outline: 1px solid red; */
+    float: left;
+}
+
+
+
+#k-product .k-col2 a { 
+    display: block;
+    height: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 20%;
+}
+
+
+
+#k-product .k-container .k-col2:nth-child(1) { 
+    background: #EEEEEE;
+    background-image: url(../images/index/col2-img1.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#k-product .k-container .k-col2:nth-child(2) { 
+    border: 1px solid #EEEEEE;
+    background-image: url(../images/index/col2-img2.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#k-product .k-container .k-col2:nth-child(3) { 
+    background: #EEEEEE;
+    background-image: url(../images/index/col2-img3.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#k-product .k-container .k-col2:nth-child(4) { 
+    border: 1px solid #EEEEEE;
+    background-image: url(../images/index/col2-img4.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#k-product .k-container .k-col2:nth-child(5) { 
+    background: #EEEEEE;
+    background-image: url(../images/index/col2-img5.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+#k-product .k-container .k-col2:nth-child(6) { 
+    border: 1px solid #EEEEEE;
+    background-image: url(../images/index/col2-img6.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+#k-product a:hover { 
+    color: #fff;
+    background: rgba(0, 0, 0,0.5);
+}

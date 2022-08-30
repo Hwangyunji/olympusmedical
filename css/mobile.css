@@ -1,0 +1,274 @@
+/* 모바일 */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url(./reset.css);
+@import url(./m-index.css);
+@import url(./m-post.css);
+@import url(./m-support.css);
+@import url(./m-intro.css);
+@import url(./m-product.css);
+
+
+
+/* header */
+#toggle-btn {
+    display: block;
+    border-style: none;
+    font-size: 30px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    position: relative;
+    width: 100%;
+    height: var(--mobile-header-height);
+    background: #fff;
+}
+
+#main-header h1 img {
+    display: block;
+    width: 108px;
+}
+
+#gnb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    height: 1544;
+    z-index: 999;
+    display: none;
+}
+
+#gnb.on {
+    display: block;
+}
+
+#close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    border-style: none;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    height: var(--mobile-header-height);
+}
+
+#gnb .depth1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#gnb .depth1 .title-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#gnb .depth1 li>:nth-child(1) {
+    padding: 20px;
+}
+
+#gnb p {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: 3px solid var(--main-color2) underline;
+}
+
+
+/* depth2 */
+.depth2 {
+    display: none;
+}
+
+.depth2 li {
+    background: var(--sub-color2);
+    margin: 0px 20px;
+    padding: 20px 0;
+}
+
+.depth2 li:last-child {
+    margin-bottom: 20px;
+}
+
+.depth2 a {
+    font-weight: 400 !important; 
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#gnb .depth1 li:nth-child(4) .depth2 {
+    /* outline: 1px solid green; */
+    margin: 0 20px 20px;
+    background: var(--sub-color2);
+}
+
+#gnb .depth1 li:nth-child(4) .depth2 li {
+    display: inline-block;
+    margin: 0;
+}
+
+#gnb .depth1 li:nth-child(4) .depth2 li:first-child {
+    display: block;
+}
+
+#gnb .depth1 li:nth-child(4) .depth2 li:nth-child(even) {
+    width: 170px;
+}
+
+#gnb .title-menu .bi {
+    outline: 1px solid red;
+}
+
+.category {
+    background: var(--sub-color2);
+}
+
+.category li {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.depth2:nth-child(2).on {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background: var(--sub-color2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 306px;
+    padding-left: 30px;
+    margin-top: 40px;
+    border-top: 1px solid #999999;
+    position: relative;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer-info p {
+    color: #555;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 15px;
+} 
+
+.footer-info p:first-child {
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.footer-info p:nth-child(3) {
+    padding-bottom: 5px;
+}
+
+.footer-info p:nth-child(3) , .footer-info p:nth-child(4) {
+    line-height: 17px;
+}
+
+.footer-info .copy {
+    font-size: 10px;
+    padding-top: 55px;
+    padding-bottom: 0;
+}
+
+.family-site {
+    position: absolute;
+    top: 207px;
+    /* outline: 1px solid red; */
+}
+
+.family-site- {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 40px;
+    border: 1px solid var(--main-color1);
+    padding: 10px 20px;
+}
+
+.family-site- p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color1);
+}
+
+#family-site-btn {
+    border: none;
+    background: transparent;
+    /* outline: 1px solid red; */
+}
+
+#family-site-btn .bi {
+    font-size: 20px;
+    color: var(--main-color1);
+}
+
+.family-site-nav > ul {
+    display: none;
+}
+
+.family-site-nav > ul.on {
+    position: absolute;
+    bottom: 40px;
+    width: 270px;
+    height: 160px;
+    display: block;
+}
+
+.family-site-nav a {
+    display: block;
+    color: var(--sub-color1);
+    background: var(--main-color1);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+
+
+
+

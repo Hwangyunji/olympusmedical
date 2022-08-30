@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관련문의</title>
+    <!-- 웹폰트 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 아이콘 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- style.css(공통) -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- mobile.css: 767px까지(모바일) -->
+    <link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width: 767px)">
+    <!-- pc.css: 768px부터(큰화면) - Breakpoint(중단점)-->
+    <link rel="stylesheet" href="../css/pc.css" media="screen and (min-width: 768px)">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 자바스크립트 -->
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>
+                <a href="/index.html">
+                    <img src="../images/support/logo.png" alt="올림푸스 한국">
+                </a>
+            </h1>
+            <nav id="gnb">
+                <ul class="depth1">
+                    <button id="close-btn">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                    <li>
+                        <p>CATEGORY</p>
+                    </li>
+                    <li>
+                        <div class="title-menu">
+                            <a href="#">회사소개</a><i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="depth2">
+                            <li><a href="../pages/intro.html">올림푸스 한국</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="title-menu">
+                            <a href="#">제품</a><i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="depth2">
+                            <li><a href="#">모든 제품</a></li>
+                            <li><a href="../pages/product.html">소화기</a></li>
+                            <li><a href="#">일반외과</a></li>
+                            <li><a href="#">비뇨기과</a></li>
+                            <li><a href="#">산부인과</a></li>
+                            <li><a href="#">호흡기</a></li>
+                            <li><a href="#">이비인후과</a></li>
+                            <li><a href="#">마취과</a></li>
+                            <li><a href="#">세척 및 살균</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="title-menu">
+                            <a href="#">교육</a><i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="depth2">
+                            <li><a href="https://www.endoatlas.net/ea/AtW01/106.aspx">EndoAtlas</a></li>
+                            <li><a href="https://www.olympusprofed.com/">글로벌 교육</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title-menu">
+                            <a href="#">인재채용</a><i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="depth2">
+                            <li><a href="../pages/post.html">인사제도</a></li>
+                            <li><a href="#">인재육성</a></li>
+                            <li><a href="#">채용공고</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title-menu">
+                            <a href="#">고객지원</a><i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="depth2">
+                            <li><a href="../pages/support.html">관련문의</a></li>
+                            <li><a href="#">견적 및 AS문의</a></li>
+                            <li><a href="#">브로셔 다운로드</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <button id="toggle-btn">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    
+    <div class="j-container">
+        <div class="j-title">
+            <p>관련문의</p>
+        </div>
+        <div class="j-support">
+            <div class="j-questions">
+                <a href="tel:1544-3200" class="j-hover">
+                    <div class="m-j-text">
+                        <div class="j-text">
+                            <h1><span>일반</span>문의</h1>
+                            <div class="j-list">
+                                <p>제품 문의</p>
+                                <p>수리품 문의</p>
+                                <p>서비스 문의</p>
+                                <p>기타 문의</p>
+                            </div>
+                        </div>
+                        <img src="/images/support/questions.png" alt="일반문의">
+                        <img src="/images/support/questions-hover.png" alt="일반문의호버" class="j-hover-img">
+                    </div>
+                    <div class="j-contact">
+                        <p class="j-time">영업시간 08:30 ~ 17:30</p>
+                        <p class="j-call">클릭시 전화로 연결됩니다.</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="j-tour">
+                <a href="#" class="j-hover">
+                    <div class="m-j-text">
+                        <div class="j-text">
+                            <h1><span>라인</span>투어</h1>
+                            <div class="j-list">
+                                <p>서비스 본부 소개</p>
+                                <p>집중 수리센터 견학</p>
+                            </div>
+                        </div>
+                        <img src="/images/support/tour.png" alt="라인투어">
+                        <img src="/images/support/tour-hover.png" alt="라인투어호버" class="j-hover-img">
+                    </div>
+                    <div class="j-contact">
+                        <p class="j-time">영업시간 08:30 ~ 17:30</p>
+                        <p class="j-mail">클릭시 이메일로 연결됩니다.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container">
+        <div class="footer-info">
+            <p>개인정보 처리방침</p>
+            <p>올림푸스한국㈜ | 대표이사 오카다 나오키 | <br>서울시 서초구 서초대로 38길 12 (마제스타시티 타워 원 3층) | <br>대표전화 1544-3200</p>
+            <p>이 페이지의 내용은 의료인, 의료기관 기타 이와 상응하는 <br>사람에게 전문적인 내용을 전달하는 것을 목적으로 합니다.</p>
+            <p>The content on this page is intended to<br>healthcare professionals and equivalents.</p>
+            <p class="copy">COPYRIGHT© OLYMPUS CORPORATION All Rights Reserved.</p>
+        </div>
+        <div class="family-site">
+            <div class="family-site-">
+                <p>Family site</p>
+                <button id="family-site-btn">
+                    <i class="bi bi-chevron-up"></i>
+                </button>
+            </div>
+            <div class="family-site-nav">
+                <ul>
+                    <li><a href="https://www.olympus-global.com/" target='_blank'>올림푸스 글로벌</a></li>
+                    <li><a href="https://www.olympus.co.kr/" target='_blank'>올림푸스 한국</a></li>
+                    <li><a href="https://olympusmedical.co.kr/" target='_blank'>올림푸스 의료사업</a></li>
+                    <li><a href="https://www.olympus-scope.co.kr/" target='_blank'>올림푸스 사이언스 솔루션</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

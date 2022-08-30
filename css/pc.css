@@ -1,0 +1,248 @@
+/* pc */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url(./reset.css);
+@import url(./pc-index.css);
+@import url(./pc-intro.css);
+@import url(./pc-post.css);
+@import url(./pc-support.css);
+@import url(./pc-product.css);
+
+
+
+/* header */
+header {
+    background: #fff;
+    padding: 0 30px;
+}
+
+#main-header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    border-bottom: 1px solid #999;
+}
+
+#main-header .container {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+#main-header .container h1 {
+    width: 197px;
+}
+
+#main-header .container h1>a {
+    width: 100%;
+    /* background: #ccc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* gnb  */
+#gnb {
+    position: relative;
+    /* background: pink; */
+    margin: 0 auto;
+}
+
+#gnb .depth1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#gnb .depth1>li {
+    padding: 30px 0;
+    /* outline: 1px solid red; */
+}
+
+#gnb p {
+    display: none;
+}
+
+#gnb .depth1>li>.title-menu {
+    width: 173px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#gnb .depth1>li>.title-menu>a {
+    width: 30px;
+}
+
+#gnb .depth1>li>.title-menu:hover>a {
+    color: var(--main-color1);
+}
+
+#gnb .bi {
+    display: none;
+}
+
+/* depth2 */
+#gnb .depth2 {
+    padding-top: 30px;
+    display: none;
+}
+
+#gnb .depth2.on {
+    display: block;
+}
+
+#gnb .depth2>li {
+    padding: 5px 0;
+}
+
+#gnb .depth2>li>a {
+    font-weight: 350;
+    font-size: 16px;
+}
+
+#gnb .depth2>li:hover>a {
+    font-weight: 500;
+    color: var(--main-color1);
+}
+
+/* btn */
+#close-btn {
+    position: absolute;
+    right: -32px;
+    top: 0;
+    display: none;
+    font-size: 32px;
+    background: transparent;
+    border-style: none;
+}
+
+#toggle-btn {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 32px;
+    background: transparent;
+    border-style: none;
+    display: none;
+}
+
+
+
+/* footer */
+footer {
+    background: var(--sub-color2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 180px; */
+    padding-left: 30px;
+    margin-top: 150px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-info p {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-info p:first-child {
+    font-weight: 700;
+    padding-bottom: 9px;
+}
+
+.footer-info p {
+    padding-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-info p br {
+        display: none;
+    }
+}
+
+.footer-info p:nth-child(3) {
+    padding-bottom: 2px;
+}
+
+.footer-info .copy {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+.family-site {
+    position: relative;
+    margin-right: 108px;
+    /* outline: 1px solid red; */
+}
+
+@media screen and (max-width: 1190px) {
+    .family-site {
+        margin-right: 30px;
+    }
+}
+
+.family-site- {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    border: 1px solid var(--main-color1);
+    padding: 13px 30px;
+}
+
+.family-site- p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-color1);
+}
+
+#family-site-btn {
+    border: none;
+    background: transparent;
+    /* outline: 1px solid red; */
+}
+
+#family-site-btn .bi {
+    font-size: 24px;
+    color: var(--main-color1);
+}
+
+.family-site-nav>ul {
+    /* outline: 1px solid red; */
+    position: absolute;
+    bottom: 50px;
+    width: 300px;
+    height: 197px;
+    display: none;
+}
+
+.family-site-nav>ul.on {
+    position: absolute;
+    bottom: 50px;
+    width: 300px;
+    height: 197px;
+    display: block;
+}
+
+.family-site-nav a {
+    display: block;
+    color: var(--sub-color1);
+    background: var(--main-color1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 30px;
+}
+
+
+
+
+
+

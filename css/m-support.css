@@ -1,0 +1,111 @@
+/* 관련문의 */
+.j-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/support/m-title-img.png);
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.j-title p {
+    color: var(--sub-color1);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: 0.5em;
+    font-weight: 700;
+}
+
+.j-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.j-support h1 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.5em;
+    padding-top: 30px;
+    /* padding-left: 105px; */
+    font-weight: 300;
+    text-align: center;
+}
+
+.j-support h1 span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.j-contact {
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.j-questions , .j-tour{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 335px;
+    height: 335px;
+    outline: 1px solid #000;
+}
+.j-questions .m-j-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.j-support .j-list {
+    padding-top: 49px;
+    padding-left: 35px;
+}
+
+.j-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 5px;
+}
+
+.j-list p:last-child {
+    padding-bottom: 0;
+}
+
+.j-questions img {
+    position: absolute;
+    width: 170px;
+    height: 116px;
+    margin: 108px 0 42px 145px;
+}
+
+.j-support .j-hover-img {
+    display: none;
+}
+
+.j-tour .j-list {
+    padding-left: 190px;
+    padding-top: 73px;
+}
+
+.j-tour img {
+    position: absolute;
+    width: 116px;
+    height: 138px;
+    margin: 99px 0 35px 33px;
+}
+.j-tour .m-j-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+.j-time {
+    padding-bottom: 5px;
+}
