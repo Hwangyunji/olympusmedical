@@ -32,6 +32,10 @@
   font-weight: 700;
 }
 
+.b-main .b .br {
+  display: none;
+}
+
 #b_intro {
   padding: 0 200px;
 }
