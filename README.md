@@ -8,6 +8,7 @@ https://olympusmedical.co.kr/
 ![olympus-main-img](https://user-images.githubusercontent.com/105402299/187571351-dc3bf61f-93ae-49a7-bedd-f81ad3736226.png)
 
 # 페이지 상세 설명
+
 - 메인페이지
   - 스와이퍼를 이용한 자동 배너
   - 의료 분야, 제품 정보 섹션에 마우스를 가져가면 hover 효과
@@ -20,10 +21,10 @@ https://olympusmedical.co.kr/
   - 문의 영역 hover -> color black에서 main-color 변경
   - 일반 문의 영역 클릭 -> 전화 통화로 연결
   
- - 헤더, 푸터
+- 헤더, 푸터
   - 메인 메뉴 hover -> 전체 메뉴 down
   - 전체 메뉴명 hover -> color black에서 main-color 변경
   - 푸터 패밀리 사이트 화살표 toggleClass로 열리고 닫힘
   
- - 모바일 헤더
+- 모바일 헤더
   - 메인 메뉴 클릭시 해당 메뉴의 서브 메뉴만 열리고 닫힘
