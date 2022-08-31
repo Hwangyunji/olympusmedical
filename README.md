@@ -20,8 +20,8 @@ https://olympusmedical.co.kr/
     - 의료 분야, 제품 정보 섹션에 마우스를 가져가면 hover 효과
   
 2. 제품-소화기
-    - 서브 메뉴 hover -> font-weight, color 변경
-    - 사진 hover -> 사진 어두워지면서 제품명 나타남
+    - LNB hover -> font-weight, color 변경
+    - 제품 사진 hover -> 사진 어두워지면서 제품명 나타남
   
 3. 고객지원-관련문의
     - 문의 영역 hover -> color black에서 main-color 변경
