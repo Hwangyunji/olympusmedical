@@ -17,7 +17,8 @@ https://olympusmedical.co.kr/
     - 스와이퍼를 이용한 자동 배너
     - 의료 분야, 제품 정보 섹션에 마우스를 가져가면 hover 효과
   
-###### 제품-소화기
+##### 제품-소화기
+
     - LNB hover -> font-weight, color 변경
     - 제품 사진 hover -> 사진 어두워지면서 제품명 나타남
   
