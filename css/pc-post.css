@@ -16,7 +16,7 @@
 #s-main-visual .s-container {
     height: 327px;
     position: relative;
-    background-image: url(/images/post/main.png);
+    background-image: url(../images/post/main.png);
     background-size: cover;
 }
 
@@ -75,7 +75,7 @@ h4 {
 }
 
 #s-system .s-container {
-    background-image: url(/images/post/system.png);
+    background-image: url(../images/post/system.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #eeeeee;
@@ -90,7 +90,7 @@ h4 {
 
 
 #s-identity .s-container {
-    background-image: url(/images/post/frame.png);
+    background-image: url(../images/post/frame.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
